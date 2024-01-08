@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Đăng nhập</title>
+</head>
+
+<style>
+
+    .center {
+        justify-items: center;
+        justify-content: center;
+        align-items: center;
+        margin: auto;
+        text-align: center;
+        margin-top: auto;
+        margin-bottom: auto;
+    }
+
+    body {
+        background-color: azure;
+    }
+
+    .container {
+        width: 28%;
+        background-color: white;
+        height: 850px;
+        margin: auto;
+        margin-top: 5%;
+        margin-bottom: 5%;
+        padding-top: 3%;
+        padding-bottom: 3%;
+        box-shadow: 0 0.5rem 1rem rgba(0,0,0,.15);
+    }
+
+    .around {
+        display: block;
+        width: 80%;
+        height: 100%;
+        margin: auto;
+        background-image: url(https://lms.ou.edu.vn/231/login/Login_v12/images/img-01.jpg);
+        background: -webkit-linear-gradient(bottom, #005bea, #00c6fb);
+    }
+
+    .logo {
+        width: 60%;
+        vertical-align: middle;
+        margin: auto;
+        padding-top: 40%;
+    }
+
+    img {
+        width: 100%;
+    }
+
+    .title {
+        padding-top: 20px ;
+        border: 1px solid transparent;
+        border-radius: 10px;
+        background-color: yellow;
+        font-size: 20px;
+        font-weight:bolder;
+        color:#336699;
+        height: 50px;
+        width: 90%;
+    }
+
+    .login {
+        width: 90%;
+        background-color: #00C851;
+        color: white;
+        margin-top: 10%;
+        text-decoration: none;
+        font-size: 25px;
+        font-weight:bold;
+        height: 50px;
+        border-radius: 10px;
+        margin-left: 5%;
+        border: none;
+        cursor: pointer;
+    }
+
+    .login:hover {
+        background: -webkit-linear-gradient(left, #005bea, #00c6fb);
+    }
+
+    .inputbox {
+        width: 100%;
+        margin: auto;
+        margin-top: 15%;
+
+    }
+
+    .form-label {
+        font-size: 20px;
+        color: white;
+        padding: 5%;
+    }
+
+    .form-control {
+        width: 60%;
+        margin-bottom: 5%;
+    }
+
+    .form-check-label {
+        margin-right: auto;
+        color: white;
+        right: 0;
+        text-align: right;
+    }
+
+    .form-check {
+        text-align: right;
+        width: 80%;
+        margin: auto;
+    }
+
+</style>
+
+<body>
+    <section>
+        <div class="container">
+                <div class="around">
+                    <div class="logo">
+                        <img src="https://lms.ou.edu.vn/231/login/Login_v12/images/logo-white.png" alt="">
+                    </div>
+
+                    <div class="title center">QUẢN LÝ HỌC SINH</div>
+
+                    <form action="" class="inputbox">
+                        <div class="mb-3 mt-3">
+                          <label for="tk" class="form-label">Tài khoản:</label>
+                          <input type="tk" class="form-control" id="tk" placeholder="Tài khoản" name="tk">
+                        </div>
+                        <div class="mb-3">
+                          <label for="pwd" class="form-label">Mật khẩu :</label>
+                          <input type="password" class="form-control" id="pwd" placeholder="Mật khẩu" name="pswd">
+                        </div>
+                        <div class="form-check mb-3">
+                          <label class="form-check-label">
+                            <input class="form-check-input" type="checkbox" name="remember"> Nhớ mật khẩu
+                          </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary login center">Đăng nhập</button>
+                      </form>
+
+                </div>
+
+        </div>
+
+    </section>
+</body>
+</html>
